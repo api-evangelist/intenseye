@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.intenseye.com/deployments-and-privacy/privacy-and-security
+note: >-
+  Intenseye publishes a security & privacy posture rather than an API standards
+  profile (there is no public OpenAPI to derive cross-cutting API standards from).
+  The entries below capture the compliance programs and controls the vendor states
+  publicly. conforms values reflect published claims, not an independent audit.
+standards:
+  - id: soc2
+    conforms: true
+    evidence: SOC 2 / AICPA SOC certification displayed on the data privacy & security page
+  - id: gdpr
+    conforms: true
+    evidence: "\"We align with the world's most rigorous privacy regulations, including GDPR\""
+controls:
+  - id: encryption-at-rest
+    detail: AES-256 encryption for storage
+  - id: encryption-in-transit
+    detail: TLS for data transmission
+  - id: penetration-testing
+    detail: Regular third-party penetration tests and continuous infrastructure assessments
+  - id: data-minimization
+    detail: No facial recognition; camera data not stored beyond analysis; custom retention/deletion policies

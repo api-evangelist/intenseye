@@ -1,8 +1,29 @@
 aid: intenseye
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intenseye.png
 name: Intenseye
-description: Intenseye is a company surfaced as a portfolio company of insight-partners, lightspeed-venture-partners,
-  point-nine and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Intenseye is an AI-powered workplace safety platform that applies computer vision to a
+  facility's existing CCTV cameras to detect unsafe conditions and behaviors in real time and
+  prevent Serious Injuries and Fatalities (SIF). Its Environment, Health and Safety (EHS)
+  product surfaces hazards, compliance gaps, and operational risks across manufacturing,
+  logistics, food & beverage, and other high-risk industries, and can trigger Hard Stop
+  emergency alerts. Intenseye offers cloud, private cloud, and on-premise deployment, is
+  SOC 2 / AICPA certified and GDPR-aligned, uses AES-256 encryption at rest and TLS in transit,
+  and does not use facial recognition. Backed by Insight Partners, Lightspeed Venture Partners,
+  and Point Nine. Intenseye publishes no public API, SDK, or developer portal; product access is
+  through its dashboard and login. It maintains a public GitHub organization of mostly open-source
+  forks and workshops rather than first-party client libraries.
 url: https://raw.githubusercontent.com/api-evangelist/intenseye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Workplace Safety
+- Computer Vision
+- Artificial Intelligence
+- EHS
+- Occupational Safety
+- Manufacturing
+- Industrial IoT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +52,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/intenseye-domain-security.yml
+- type: Conformance
+  url: conformance/intenseye-conformance.yml
+- type: Compliance
+  url: https://www.intenseye.com/deployments-and-privacy/privacy-and-security
 - type: Website
   url: https://www.intenseye.com/
+- type: Blog
+  url: https://www.intenseye.com/resources/blog
+- type: PrivacyPolicy
+  url: https://www.intenseye.com/privacy-policy
+- type: Login
+  url: https://auth.intenseye.com/login
+- type: Support
+  url: https://www.intenseye.com/contact-us
+- type: GitHubOrganization
+  url: https://github.com/intenseye
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
