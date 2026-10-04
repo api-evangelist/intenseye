@@ -50,7 +50,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Workplace Safety
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - EHS
 - Occupational Safety
@@ -65,6 +65,7 @@ tags_raw:
 - Occupational Safety
 - Manufacturing
 - Industrial IoT
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
