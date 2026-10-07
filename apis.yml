@@ -73,6 +73,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/intenseye-plans-pricing.yml
 - type: DomainSecurity
   url: security/intenseye-domain-security.yml
 - type: Conformance
